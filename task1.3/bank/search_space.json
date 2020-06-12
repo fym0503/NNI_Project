@@ -1,0 +1,40 @@
+{
+    "count":[
+        "age","job","marital","education","default","housing","loan",
+        "contact","month","dayofweek","duration","campaign","pdays",
+        "previous","poutcome","emp.var.rate","cons.price.idx","cons.conf.idx",
+        "euribor3m","nr.employed"
+    ],
+    "aggregate":[
+        [
+            "age","duration","campaign","pdays",
+            "previous","emp.var.rate","cons.price.idx","cons.conf.idx",
+            "euribor3m","nr.employed"
+        ],
+        [
+            "age","duration","campaign","pdays",
+            "previous","emp.var.rate","cons.price.idx","cons.conf.idx",
+            "euribor3m","nr.employed"
+        ]
+    ],
+    "embedding":[
+        
+            "job","marital","education","default","housing","loan",
+            "contact","month","dayofweek","poutcome"
+        
+    ],
+    "crosscount":[
+        [
+            "age","job","marital","education","default","housing","loan",
+            "contact","month","dayofweek","duration","campaign","pdays",
+            "previous","poutcome","emp.var.rate","cons.price.idx","cons.conf.idx",
+            "euribor3m","nr.employed"
+        ],
+        [
+            "age","job","marital","education","default","housing","loan",
+            "contact","month","dayofweek","duration","campaign","pdays",
+            "previous","poutcome","emp.var.rate","cons.price.idx","cons.conf.idx",
+            "euribor3m","nr.employed"
+        ]
+    ]
+}
